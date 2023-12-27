@@ -7,4 +7,14 @@
                  start-page="starter-topic.md">
 
     <toc-element topic="starter-topic.md"/>
+    <toc-element topic="Elastic-Stack.md">
+        <toc-element topic="Elastic-Stack-Elasticsearch.md">
+            <toc-element topic="Elastic-Stack-Elasticsearch-Bootstrap-Checks.md">
+            </toc-element>
+            <toc-element topic="Elastic-Stack-Elasticsearch-部署后.md"/>
+            <toc-element topic="Elastic-Stack-Elasticsearch-监控.md"/>
+        </toc-element>
+        <toc-element topic="Elastic-Stack-Logstash.md"/>
+        <toc-element topic="Elastic-Stack-Kibana.md"/>
+    </toc-element>
 </instance-profile>
