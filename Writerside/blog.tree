@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="blog"
-                 name="blog"
+                 name="老丁博客"
                  start-page="starter-topic.md">
 
     <toc-element topic="starter-topic.md"/>
