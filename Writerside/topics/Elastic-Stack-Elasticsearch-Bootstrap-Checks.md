@@ -20,7 +20,9 @@ Lucene 使用了**大量的**文件。 同时，Elasticsearch 在节点和 HTTP 
 可悲的是，许多现代的 Linux 发行版本，每个进程默认允许一个微不足道的 1024 文件描述符。这对一个 Elasticsearch 节点来说实在是太
 **低** 了，更不用说一个处理数以百计索引的节点。
 
-可以使用[Nodes stats](https://www.elastic.co/guide/en/elasticsearch/reference/7.6/cluster-nodes-stats.html)  API检查为每个节点配置的`max_file_descriptors`，具体如下:
+可以使用[Nodes stats](https://www.elastic.co/guide/en/elasticsearch/reference/7.6/cluster-nodes-stats.html)
+API检查为每个节点配置的`max_file_descriptors`，具体如下:
+
 ``` cURL
 GET _nodes/stats/process?filter_path=**.max_file_descriptors 
 ```
