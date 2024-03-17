@@ -3,21 +3,39 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="blog"
-                  name="老丁博客"
+                  name="老丁笔记"
                   start-page="starter-topic.md">
 
     <toc-element topic="starter-topic.md"/>
-    <toc-element topic="Elastic-Stack.md">
-        <toc-element topic="Elastic-Stack-Elasticsearch.md">
-            <toc-element topic="Elastic-Stack-Elasticsearch-Bootstrap-Checks.md">
-            </toc-element>
-            <toc-element topic="Elastic-Stack-Elasticsearch-部署后.md"/>
-            <toc-element topic="Elastic-Stack-Elasticsearch-监控.md"/>
-        </toc-element>
-        <toc-element topic="Elastic-Stack-Logstash.md"/>
-        <toc-element topic="Elastic-Stack-Kibana.md"/>
+
+    <toc-element toc-title="Writerside使用文档">
+        <toc-element topic="Writerside-projects.md"/>
+        <toc-element topic="Writerside-清理和维护.md"/>
+        <toc-element topic="Writerside-主题.md"/>
     </toc-element>
 
-    <toc-element toc-title="等待编辑"></toc-element>
+
+    <toc-element topic="ElasticStack-start.md">
+        <toc-element toc-title="Elasticsearch">
+            <toc-element toc-title="部署">
+                <toc-element topic="ElasticStack-es-部署-硬件要求.md"/>
+                <toc-element topic="ElasticStack-es-部署-启动前检查.md"/>
+            </toc-element>
+        </toc-element>
+
+
+        <toc-element toc-title="Kibana">
+
+        </toc-element>
+        <toc-element toc-title="Logstash">
+
+        </toc-element>
+        <toc-element toc-title="Beats">
+
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="等待编辑">
+
+    </toc-element>
 
 </instance-profile>

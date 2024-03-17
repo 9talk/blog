@@ -1,3 +1,0 @@
-# Logstash
-
-Start typing here...

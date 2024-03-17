@@ -15,3 +15,7 @@ Logstash 是服务器端数据处理管道，能够同时从多个来源采集�
 ## Kibana
 
 Kibana 则可以让用户在 Elasticsearch 中使用图形和图表对数据进行可视化
+
+##  Beats
+
+Beats有很多, 通常情况下Filebeat是很好的文件收集工具
