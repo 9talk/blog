@@ -1,7 +1,17 @@
+name: Build documentation
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  pages: write
+
 env:
-  INSTANCE: Writerside/blog
-  ARTIFACT: webHelpBLOG2-all.zip
-  ALGOLIA_ARTIFACT: algolia-indexes-BLOG.zip
+  INSTANCE: 'Writerside/blog'
+  ARTIFACT: 'webHelpBLOG2-all.zip'
   DOCKER_VERSION: '233.14938'
 
 jobs:
