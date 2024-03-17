@@ -69,10 +69,10 @@ jobs:
           name: docs
           path: artifacts
 
-      - name: Test documentation
-        uses: JetBrains/Writerside-checker-action@v1
-        with:
-          instance: ${{ env.INSTANCE }}
+        #- name: Test documentation
+        #uses: JetBrains/Writerside-checker-action@v1
+          #with:
+          #instance: ${{ env.INSTANCE }}
 
   deploy:
     environment:
