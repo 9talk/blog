@@ -33,22 +33,26 @@
 每个实例都必须通过在<code>&lt;instance&gt;</code>元素中指定其树文件来注册到<b><a href="#writerside_cfg"></a></b>中。
 </p>
 </procedure>
-
-* v.list
-    * 全局项目变量及其默认值的列表。
-    * 将该文件注册到Writerside.cfg的`<vars>`元素中。
-* c.list:
-    * 类别列表定义主题的“另请参阅”部分的相关链接组。在writerside.cfg的`<categories>`元素中注册这个文件。
-
+<procedure title="v.list" id="v_list">
+<p>全局项目变量及其默认值的列表。 将该文件注册到Writerside.cfg的<code>&lt;vars&gt;</code>元素中。</p>
+</procedure>
+<procedure title="c.list" id="c_list">
+<p>类别列表定义主题的“另请参阅”部分的相关链接组。在writerside.cfg的<code>&lt;categories&gt;</code>元素中注册这个文件。</p>
+</procedure>
 以下文件和目录是可选的：
 
-* redirection-rules.xml: 重定向规则的配置文件。
-* code-snippets/:
-  代码段的目录包含了一些代码段的文件，您可以将这些代码段作为示例插入到代码块中。在writerside.cfg的`<snippets>`元素中注册这个目录。
-* cfg/: 生成配置文件的目录。构建配置目录可以包含以下文件：
-    * buildprofiles.xml 用于配置最终输出。
-    * build-script.xml 用于配置构建过程。
-    * glossary.xml 用于定义可在工具提示中使用的术语及其描述。
+<procedure title="redirection-rules.xml" id="redirection-rules.xml">
+<p>重定向规则的配置文件。</p>
+</procedure>
+
+<procedure title="code-snippets/" id="code-snippets_">
+<p>代码段的目录包含了一些代码段的文件，您可以将这些代码段作为示例插入到代码块中。在writerside.cfg的<code>&lt;snippets&gt;元素中注册这个目录。</code></p>
+</procedure>
+<procedure title="cfg/" id="cfg_">
+<step>buildprofiles.xml 用于配置最终输出。</step>
+<step>build-script.xml 用于配置构建过程。</step>
+<step>glossary.xml 用于定义可在工具提示中使用的术语及其描述。</step>
+</procedure>
 
 
   
