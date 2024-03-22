@@ -28,9 +28,6 @@ jobs:
           artifact: ${{ env.ARTIFACT }}
           docker-version: ${{ env.DOCKER_VERSION }}
 
-      - name: Copy custom file
-        run: ls -la
-
       - name: Save artifact with build results
         uses: actions/upload-artifact@v4
         with:
@@ -38,7 +35,7 @@ jobs:
           path: |
             artifacts/${{ env.ARTIFACT }}
             artifacts/report.json
-            artifacts/google1e0824f366be664d.html
+            google1e0824f366be664d.html
           retention-days: 7
   test:
     needs: build
@@ -69,8 +66,11 @@ jobs:
       - name: Unzip artifact
         run: unzip -O UTF-8 -qq '${{ env.ARTIFACT }}' -d dir
 
+      - name: Copy custom file1
+        run: ls -la && ls dir -la
+
       - name: Copy custom file
-        run: ls -la
+        run: cp google1e0824f366be664d.html dir
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
