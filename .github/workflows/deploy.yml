@@ -67,7 +67,7 @@ jobs:
         run: unzip -O UTF-8 -qq '${{ env.ARTIFACT }}' -d dir
 
       - name: Copy custom file
-        run: cp google1e0824f366be664d.html dir/
+        run: ls -la
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
