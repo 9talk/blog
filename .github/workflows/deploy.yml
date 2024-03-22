@@ -35,6 +35,7 @@ jobs:
           path: |
             artifacts/${{ env.ARTIFACT }}
             artifacts/report.json
+            artifacts/google1e0824f366be664d.html
           retention-days: 7
   test:
     needs: build
