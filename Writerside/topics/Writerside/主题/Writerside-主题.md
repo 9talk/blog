@@ -14,7 +14,7 @@ XML使用. topic文件在语义XML标记中创作文档。牺牲源码可阅读�
 
 <tabs>
 <tab title="Markdown 主题示例">
-<code-block lang="make">
+<code-block >
 <![CDATA[# Getting started with My Awesome App
 
 A paragraph]]>
@@ -58,5 +58,5 @@ A paragraph]]>
 ID是没有扩展名的主题文件的名称，例如getting—started。在帮助模块中不能有多个具有相同ID的主题
 
 <note>
-<p>对于XML主题，您必须在根<code>&lt;topic&gt;</code>标记中将ID显式指定为id=“Growing-Started”。</p>
+对于XML主题，您必须在根<code>&lt;topic&gt;</code>标记中将ID显式指定为id="Growing-Started"。
 </note>

@@ -5,7 +5,16 @@
     <build-profile instance="hi">
         <variables>
             <noindex-content>true</noindex-content>
+            <!--离线模式, 自带样式-->
             <offline-docs>true</offline-docs>
+            <!--自定义图标-->
+            <custom-favicons>icon500.png</custom-favicons>
+            <!--页面左上角图标-->
+            <header-logo>black_icon_500.png</header-logo>
+            <!--图标点击跳转地址-->
+            <product-web-url>https://9talk.github.io/blog</product-web-url>
+            <!--图标点击跳转地址-->
+            <primary-color>aqua</primary-color>
         </variables>
     </build-profile>
 
