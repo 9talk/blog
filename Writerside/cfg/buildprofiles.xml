@@ -5,6 +5,7 @@
     <build-profile instance="blog">
         <variables>
             <noindex-content>true</noindex-content>
+            <offline-docs>true</offline-docs>
         </variables>
     </build-profile>
 
