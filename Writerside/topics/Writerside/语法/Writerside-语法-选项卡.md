@@ -4,7 +4,9 @@
 
 ## 示例
 
-<tabs group="version" id="version">
+<code-block lang="xml">
+<![CDATA[
+<tabs group="version">
     <tab title="在Windows上安装" group-key="windows">
         在Windows上如何安装...
     </tab>
@@ -21,6 +23,31 @@
         在Macos上如何进行包管理...
     </tab>
 </tabs>
+]]>
+
+</code-block>
+
+result:
+
+<procedure  id="example">
+<tabs group="version" >
+    <tab title="在Windows上安装" group-key="windows">
+        在Windows上如何安装...
+    </tab>
+    <tab title="在Macos上安装" group-key="macos">
+        在Macos上如何安装...
+    </tab>
+</tabs>
+
+<tabs group="version">
+    <tab title="在Windows上进行包管理" group-key="windows">
+        在Windows上进行包管理...
+    </tab>
+    <tab title="在Macos上进行包管理" group-key="macos">
+        在Macos上如何进行包管理...
+    </tab>
+</tabs>
+</procedure>
 
 ## `<tabs>`的属性
 
@@ -74,7 +101,4 @@
 <procedure title="switcher-key" id="tab-switcher-key">
 <p>根据所选键使此选项卡可切换, 详细请阅读:<a href="https://www.jetbrains.com/help/writerside/switchable-content.html">selected key</a></p>
 </procedure>
-
-
-
 
