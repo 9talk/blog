@@ -4,9 +4,9 @@
 
 <instance-profile id="hi"
                   name="老丁笔记"
-                  start-page="个人简介.md">
+                  start-page="starter-topic.md">
 
-    <toc-element topic="个人简介.md"/>
+    <toc-element topic="starter-topic.md"/>
 
     <toc-element toc-title="Writerside使用文档">
 
