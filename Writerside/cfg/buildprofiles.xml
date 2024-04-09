@@ -15,6 +15,10 @@
             <!--图标点击跳转地址-->
             <primary-color>aqua</primary-color>
             <noindex-content>false</noindex-content>
+            <algolia-id>FQ1LPWHZMU</algolia-id>
+            <algolia-index>github_blog</algolia-index>
+            <algolia-api-key>2ec8a5ed75b547c0c785c0cc3fbb9322</algolia-api-key>
+            <web-root>https://9talk.github.io/blog</web-root>
         </variables>
     </build-profile>
 
