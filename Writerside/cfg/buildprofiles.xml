@@ -4,7 +4,6 @@
 
     <build-profile instance="hi">
         <variables>
-            <noindex-content>true</noindex-content>
             <!--离线模式, 自带样式-->
             <offline-docs>false</offline-docs>
             <!--自定义图标-->
@@ -15,6 +14,7 @@
             <product-web-url>https://9talk.github.io/blog</product-web-url>
             <!--图标点击跳转地址-->
             <primary-color>aqua</primary-color>
+            <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
 
