@@ -18,6 +18,7 @@ env:
   ALGOLIA_INDEX_NAME: 'github_blog'
   ALGOLIA_KEY: '${{ secrets.ALGOLIA_KEY }}'
   CONFIG_JSON_PRODUCT: 'blog'
+  CONFIG_JSON_VERSION: ''
 
 jobs:
   build:
