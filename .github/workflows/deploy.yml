@@ -17,7 +17,7 @@ env:
   ALGOLIA_APP_NAME: 'FQ1LPWHZMU'
   ALGOLIA_INDEX_NAME: 'github_blog'
   ALGOLIA_KEY: '${{ secrets.ALGOLIA_KEY }}'
-  CONFIG_JSON_PRODUCT: 'HI'
+  CONFIG_JSON_PRODUCT: 'blog'
 
 jobs:
   build:
