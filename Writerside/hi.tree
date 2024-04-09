@@ -4,9 +4,9 @@
 
 <instance-profile id="hi"
                   name="老丁笔记"
-                  start-page="starter-topic.md">
+                  start-page="Default-topic.md">
 
-    <toc-element topic="starter-topic.md"/>
+    <toc-element topic="Default-topic.md"/>
 
     <toc-element toc-title="Writerside使用文档">
 
@@ -22,7 +22,6 @@
 
     </toc-element>
 
-
     <toc-element toc-title="Elastic Stack">
         <toc-element toc-title="Elasticsearch">
             <toc-element toc-title="部署">
@@ -30,7 +29,6 @@
                 <toc-element topic="ElasticStack-es-部署-启动前检查.md"/>
             </toc-element>
         </toc-element>
-
 
         <toc-element toc-title="Kibana">
 
@@ -52,5 +50,4 @@
 
     <toc-element toc-title="等待编辑">
     </toc-element>
-
 </instance-profile>
