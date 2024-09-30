@@ -10,7 +10,6 @@ Writerside将报告没有被引用的图像，并建议删除它们。您可以�
 </p>
 </procedure>
 
-
 <procedure title="删除未使用的topic文件" id="删除未使用的topic文件">
 <p>
 当您打开一个不在任何地方使用的主题文件时，Writerside会在编辑器顶部显示一个横幅，并建议删除该主题文件。

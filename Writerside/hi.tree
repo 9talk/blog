@@ -24,9 +24,18 @@
 
     <toc-element toc-title="Elastic Stack">
         <toc-element toc-title="Elasticsearch">
+            <toc-element topic="elasticsearch-highlight.md"/>
             <toc-element toc-title="部署">
                 <toc-element topic="ElasticStack-es-部署-硬件要求.md"/>
                 <toc-element topic="ElasticStack-es-部署-启动前检查.md"/>
+            </toc-element>
+            <toc-element toc-title="建议">
+                <toc-element topic="elastic-stack-es-size-your-shards.md">
+                    <toc-element topic="shard-sizing-considerations.md"/>
+                    <toc-element topic="shard-size-best-practices.md"/>
+                    <toc-element topic="reduce-cluster-shard-count.md"/>
+                    <toc-element topic="troubleshoot-shard-related-errors.md"/>
+                </toc-element>
             </toc-element>
         </toc-element>
 
@@ -46,6 +55,14 @@
             <toc-element topic="k8s-debian-操作系统初始化.md"/>
             <toc-element topic="k8s-debian-基础软件安装.md"/>
         </toc-element>
+    </toc-element>
+
+    <toc-element toc-title="Kafka Streams">
+
+
+        <toc-element topic="kafka-streams-get-started.md"/>
+        <toc-element topic="kafka-streams-basic-operations.md"/>
+        <toc-element topic="kafka-streams-hands-on-basic-operations.md"/>
     </toc-element>
 
     <toc-element toc-title="等待编辑">
