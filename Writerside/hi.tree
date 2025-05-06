@@ -66,8 +66,9 @@
     </toc-element>
 
     <toc-element toc-title="Flink">
-
         <toc-element topic="flink-memory-model.md"/>
+        <toc-element topic="flink-core-concepts.md"/>
+        <toc-element topic="flink-job-description-and-logical-topology.md"/>
     </toc-element>
 
     <toc-element toc-title="等待编辑">
