@@ -6,8 +6,7 @@
 2. 使用单个配置文件, 使用 `---` 来作为分隔符, 典型文件: `bootstrap.yml`
     * 使用 `spring.config.activate.on-profile: xxx` 来进行声明当前配置在哪些环境下生效
     * 使用 `spring.profiles: xxx` 来声明当前配置在哪些环境下生效, 但是已不再推荐使用
-    * 上述配置均使用 `--spring.profiles.active=xxx` 进行启用
-3. 遵循合并规则
+    * 上述配置均使用 `--spring.profiles.active=xxx` 进行启用, 详细描述看下面调用多环境配置
 
 > bootstrap.yml
 
